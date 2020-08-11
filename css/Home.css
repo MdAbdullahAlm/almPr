@@ -1,0 +1,428 @@
+ * {
+     margin: 0px;
+     padding:0px;
+
+ }
+
+body{
+   margin: 0px auto;
+     padding:0 0 0 40px;
+      
+
+}
+img{
+
+  align: center;
+  text-align: center;
+
+}
+
+
+ p{
+	text-align:justify; 
+ }
+
+ #MainDiv {
+     /*background-color: #898cca;*/
+      width: 1230px;
+   margin:Opx auto;
+padding:0px;
+     height: auto;
+
+	 align: center;
+
+float:left;
+
+     
+ }
+ #MainHeaderDiv{
+	  width: 1230px;
+     height: auto;
+	 align: center;
+ }
+ 
+ 
+ #MainDivHeader {
+     /*background-color: #898cca;*/
+     width: 1230px;
+     height: auto;
+	 align: center;
+     
+ }
+ 
+ #MainHeader {
+     /* background-color: yellow;*/
+     width: 1230px;
+     height: 165px;
+	  align: center;
+ }
+ 
+ #HeaderLogo {
+     /*background-color: yellow;*/
+     width: 1230px;
+     height: 110px;
+ }
+ 
+ #LogoWork {
+     /*background-color: black;*/
+     width: 600px;
+     height: 110px;
+     float: left;
+	 
+ }
+ 
+ #LogoSideWork {
+     /* background-color: saddlebrown;*/
+     width: 500px;
+     height: 110px;
+     float: left;
+ }
+
+
+ .glyphicon-search {
+            font-size: 17px;
+        }
+        
+		.glyphicon-search:before {
+    content: "";
+}
+        .btn-default {
+            background: orange;
+            width: auto;
+			height: auto;
+            padding: 0px;
+        }
+        
+        .form-control {
+            padding: 5px;
+            font-size: 13px;
+			width: 150px;
+			float:left;
+        }
+        
+        .btno {
+		     top: 14px;
+            font-family: arial;
+            text-transform: uppercase;
+            width: 90px;
+            height: 30px;
+            border-radius: 80px;
+            line-height: 24px;
+            text-align: center;
+            border: 3px solid #009688;
+            display: block;
+            text-decoration: none;
+			color:black;
+            position: relative;
+            overflow: hidden;
+            background: transparent;
+            transition: .8xs;
+			padding:2px; 
+			font-size:14px; 		  
+			font: bold;
+        }
+		#MainDiv p{
+		      text-align:justify;
+		}
+		#BodyMain {
+		    width: 900px;
+     height: auto;
+     float: left;
+		}
+
+
+ #HeaderMenu {
+     /* background-color: red;*/
+     width: 1230px;
+     height: 40px;
+	 
+	
+     /* background-color: #202c45;*/
+ }
+ 
+ #HeaderMenu ul {
+     list-style: none;
+     /*padding: 10px;
+margin: 10px;*/
+ }
+ 
+ #HeaderMenu ul li {
+     background: #202c50;
+     height: 40px;
+     width: 150px;
+     border: 1px solid #584c4c;
+     text-align: center;
+     line-height: 40px;
+     float: left;
+     position: relative;
+	
+ }
+ 
+ #HeaderMenu ul li a {
+     text-decoration: none;
+     font-size: 20px;
+     color: #fff;
+     font-weight: bold;
+     display: block;
+ }
+ 
+ #HeaderMenu ul li a:hover {
+     color: white;
+     background: #f2184f;
+ }
+ 
+ #HeaderMenu ul ul {
+     position: absolute;
+     display: none;
+ }
+ 
+ #HeaderMenu ul li:hover >ul {
+     display: block;
+ }
+ 
+ #HeaderMenu ul ul ul {
+     left: 100%;
+     top: 0;
+ }
+ 
+ 
+ #MainBody {
+     width: 1238.5;
+     height: auto;
+     padding-top: 30px;
+ }
+ /*#BodyNav {
+     width: 183.5px;
+     height: auto;
+     float: left;
+ }
+ 
+ #BodyNav ul {
+     list-style: none;
+     padding: 10px;
+ }
+ 
+ #BodyNav ul li {
+     background: #d0e4fe;
+     height: 40px;
+     width: 183.5px;
+     border: 1px solid #584c4c;
+     text-align: center;
+     line-height: 40px;
+     float: left;
+     position: relative;
+ }
+ 
+ #BodyNav ul li a {
+     text-decoration: none;
+     font-size: 22px;
+     color: black;
+     font-weight: bold;
+     display: block;
+ }
+ 
+ #BodyNav ul li a:hover {
+     color: white;
+     background: #f2184f;
+ }*/
+ 
+ #BodyMain {
+     width: 900px;
+     height: auto;
+     float: left;
+	
+	 
+ }
+ 
+ #BodyMain #sectionHeader {
+     width: 900px;
+     height: auto;
+ }
+ 
+ #BodyMain #sectionBody {
+     width: 900px;
+     height: auto;
+ }
+ 
+ #BodyMain #sectionBody #sideber1 {
+     width: 400px;
+     float: left;
+ }
+ 
+ #BodyMain #sectionBody #sideber2 {
+     width: 400px;
+     float: right;
+ }
+ 
+ #BodySection {
+     width: 268px;
+     height: auto;
+     float: left;
+     padding: 0px 0px 0px 20px;
+ }
+ 
+ #BodySection p {
+     font-size: 21px;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ #MainFooter {
+     width: auto;
+     height: auto;
+     color: black;
+     clear: both;
+     text-align: center;
+     padding: 5px;
+ }
+ 
+ #footerHeader {
+     width: auto;
+ }
+ 
+ #footerHeaderLogo {
+     display: block;
+ }
+ 
+ #footerHeader ul {
+     list-style: none;
+     width: 600px;
+     height: 100px;
+     float: right;
+ }
+ 
+ #footerHeader ul li {
+     height: 40px;
+     width: 30px;
+     text-align: center;
+     top: 40px;
+     float: left;
+     position: relative;
+ }
+ 
+ #footerHeader ul li a {
+     text-decoration: none;
+     font-weight: bold;
+     display: block;
+ }
+ 
+ #footerBoby ul {
+     list-style: none;
+ }
+ 
+ #footerBoby ul li {
+     height: 40px;
+     width: 130px;
+     text-align: center;
+     line-height: 40px;
+     position: relative;
+ }
+ 
+ #footerBoby ul li a {
+     text-decoration: none;
+     font-size: 18px;
+     color: black;
+     font-weight: bold;
+     display: block;
+ }
+ 
+ #footerBoby ul li a:hover {
+     color: white;
+     background: black;
+ }
+ 
+  
+  @media only screen and (max-width:1325px) {
+     /* For tablets: */
+     #LogoWork {
+         width: 100%;
+     }
+     #LogoSideWork {
+         width: 80%;
+     }
+     #HeaderMenu ul li{
+         width: 100%;
+     }
+	 img{
+         width: 100%;
+     }
+	 #BodySection{
+         width: 100%;
+     }
+	 video{
+         
+		 width: 100%;
+		 height: 300px;
+     }
+ }
+ @media only screen and (max-width:800px) {
+     /* For tablets: 
+    #LogoWork {
+         width: 100%;
+     }
+     #LogoSideWork {
+         width: 80%;
+     }
+     #HeaderMenu ul li{
+         width: 100%;
+     }
+	 img{
+         width: 100%;
+     }
+	 #BodySection{
+         width: 100%;
+     }
+	 video{
+         
+		 width: 100%;
+		 height: 500px;
+     }*/
+ }
+
+ 
+ @media only screen and (max-width:500px) {
+     /* For mobile phones: */
+     #LogoWork {
+         width: 100%;
+     }
+     #LogoSideWork {
+         width: 80%;
+     }
+     #HeaderMenu ul li{
+         width: 100%;
+     }
+	 img{
+         width: 100%;
+     }
+	 #BodySection{
+         width: 100%;
+     }
+	 video{
+         
+		 width: 100%;
+		 height: 300px;
+     }
+ }
+ @media only screen and (max-width:150px) {
+     /* For mobile phones: 
+     #LogoWork {
+         width: 100%;
+     }
+     #LogoSideWork {
+         width: 80%;
+     }
+     #HeaderMenu ul li{
+         width: 100%;
+     }
+	 img{
+         width: 100%;
+     }
+	 #BodySection{
+         width: 100%;
+     }
+	 video{
+         
+		 width: 100%;
+		 height: 300px;
+     }*/
+ }

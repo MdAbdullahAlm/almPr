@@ -1,0 +1,83 @@
+#MainDiv {
+     /*background-color: #898cca;*/
+     width: auto;
+     height: auto;
+     padding: 0px 0px 0px 35px;
+ }
+ 
+ #MainHeader {
+     /* background-color: yellow;*/
+     width: auto;
+     height: 165px;
+ }
+ 
+ #HeaderLogo {
+     /*background-color: yellow;*/
+     width: 1326px;
+     height: 110px;
+ }
+ 
+ #LogoWork {
+     /*background-color: black;*/
+     width: 618px;
+     height: 110px;
+     float: left;
+ }
+ 
+ #LogoSideWork {
+     /* background-color: saddlebrown;*/
+     width: 618px;
+     height: 110px;
+     float: left;
+ }
+ 
+ #HeaderMenu {
+     /* background-color: red;*/
+     width: auto;
+     height: 40px;
+     /* background-color: #202c45;*/
+ }
+ 
+ #HeaderMenu ul {
+     list-style: none;
+     /*padding: 10px;
+margin: 10px;*/
+ }
+ 
+ #HeaderMenu ul li {
+     background: #202c45;
+     height: 40px;
+     width: 152.7px;
+     border: 1px solid #584c4c;
+     text-align: center;
+     line-height: 40px;
+     float: left;
+     position: relative;
+ }
+ 
+ #HeaderMenu ul li a {
+     text-decoration: none;
+     font-size: 20px;
+     color: #fff;
+     font-weight: bold;
+     display: block;
+ }
+ 
+ #HeaderMenu ul li a:hover {
+     color: white;
+     background: #f2184f;
+ }
+ 
+ #HeaderMenu ul ul {
+     position: absolute;
+     display: none;
+ }
+ 
+ #HeaderMenu ul li:hover >ul {
+     display: block;
+ }
+ 
+ #HeaderMenu ul ul ul {
+     left: 100%;
+     top: 0;
+ }
